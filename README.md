@@ -21,9 +21,15 @@ A reusable Hermes skill and documentation set for working with Postiz through th
 
 ## Quick start
 
-### 1. Install the skill locally
+### 1. Install the skill
 
-Copy `skills/mcp/postiz-agent/` into your Hermes skills directory:
+If you want the published package, install it with:
+
+```bash
+npx skills add gitroomhq/postiz-agent
+```
+
+If you want to use the local repo copy instead:
 
 ```bash
 cp -R skills/mcp/postiz-agent ~/.hermes/skills/mcp/
